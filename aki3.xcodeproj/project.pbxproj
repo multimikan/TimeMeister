@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81754B412CA2939200BCA11D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 81754B402CA2939200BCA11D /* FirebaseAnalytics */; };
+		818E31AD2CA40D09003273F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818E31AC2CA40D08003273F9 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81754B122CA2816C00BCA11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81754AF92CA2816B00BCA11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81754B002CA2816B00BCA11D;
+			remoteInfo = aki;
+		};
+		81754B1C2CA2816C00BCA11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81754AF92CA2816B00BCA11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81754B002CA2816B00BCA11D;
+			remoteInfo = aki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81754B012CA2816B00BCA11D /* aki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81754B112CA2816C00BCA11D /* akiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = akiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81754B1B2CA2816C00BCA11D /* akiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = akiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818E31AC2CA40D08003273F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		818E31AF2CA40EBD003273F9 /* Exceptions for "aki" folder in "aki" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 81754B002CA2816B00BCA11D /* aki */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		81754B032CA2816B00BCA11D /* aki */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				818E31AF2CA40EBD003273F9 /* Exceptions for "aki" folder in "aki" target */,
+			);
+			path = aki;
+			sourceTree = "<group>";
+		};
+		81754B142CA2816C00BCA11D /* akiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = akiTests;
+			sourceTree = "<group>";
+		};
+		81754B1E2CA2816C00BCA11D /* akiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = akiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81754AFE2CA2816B00BCA11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818E31AD2CA40D09003273F9 /* CoreLocation.framework in Frameworks */,
+				81754B412CA2939200BCA11D /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81754B0E2CA2816C00BCA11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81754B182CA2816C00BCA11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81754AF82CA2816B00BCA11D = {
+			isa = PBXGroup;
+			children = (
+				81754B032CA2816B00BCA11D /* aki */,
+				81754B142CA2816C00BCA11D /* akiTests */,
+				81754B1E2CA2816C00BCA11D /* akiUITests */,
+				818E31AB2CA40D08003273F9 /* Frameworks */,
+				81754B022CA2816B00BCA11D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81754B022CA2816B00BCA11D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81754B012CA2816B00BCA11D /* aki.app */,
+				81754B112CA2816C00BCA11D /* akiTests.xctest */,
+				81754B1B2CA2816C00BCA11D /* akiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818E31AB2CA40D08003273F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818E31AC2CA40D08003273F9 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81754B002CA2816B00BCA11D /* aki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81754B252CA2816C00BCA11D /* Build configuration list for PBXNativeTarget "aki" */;
+			buildPhases = (
+				81754AFD2CA2816B00BCA11D /* Sources */,
+				81754AFE2CA2816B00BCA11D /* Frameworks */,
+				81754AFF2CA2816B00BCA11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				81754B032CA2816B00BCA11D /* aki */,
+			);
+			name = aki;
+			packageProductDependencies = (
+				81754B402CA2939200BCA11D /* FirebaseAnalytics */,
+			);
+			productName = aki;
+			productReference = 81754B012CA2816B00BCA11D /* aki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81754B102CA2816C00BCA11D /* akiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81754B282CA2816C00BCA11D /* Build configuration list for PBXNativeTarget "akiTests" */;
+			buildPhases = (
+				81754B0D2CA2816C00BCA11D /* Sources */,
+				81754B0E2CA2816C00BCA11D /* Frameworks */,
+				81754B0F2CA2816C00BCA11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81754B132CA2816C00BCA11D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				81754B142CA2816C00BCA11D /* akiTests */,
+			);
+			name = akiTests;
+			packageProductDependencies = (
+			);
+			productName = akiTests;
+			productReference = 81754B112CA2816C00BCA11D /* akiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81754B1A2CA2816C00BCA11D /* akiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81754B2B2CA2816C00BCA11D /* Build configuration list for PBXNativeTarget "akiUITests" */;
+			buildPhases = (
+				81754B172CA2816C00BCA11D /* Sources */,
+				81754B182CA2816C00BCA11D /* Frameworks */,
+				81754B192CA2816C00BCA11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81754B1D2CA2816C00BCA11D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				81754B1E2CA2816C00BCA11D /* akiUITests */,
+			);
+			name = akiUITests;
+			packageProductDependencies = (
+			);
+			productName = akiUITests;
+			productReference = 81754B1B2CA2816C00BCA11D /* akiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81754AF92CA2816B00BCA11D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					81754B002CA2816B00BCA11D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					81754B102CA2816C00BCA11D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 81754B002CA2816B00BCA11D;
+					};
+					81754B1A2CA2816C00BCA11D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 81754B002CA2816B00BCA11D;
+					};
+				};
+			};
+			buildConfigurationList = 81754AFC2CA2816B00BCA11D /* Build configuration list for PBXProject "aki3" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 81754AF82CA2816B00BCA11D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				81754B3F2CA2939200BCA11D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 81754B022CA2816B00BCA11D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81754B002CA2816B00BCA11D /* aki */,
+				81754B102CA2816C00BCA11D /* akiTests */,
+				81754B1A2CA2816C00BCA11D /* akiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81754AFF2CA2816B00BCA11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81754B0F2CA2816C00BCA11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81754B192CA2816C00BCA11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81754AFD2CA2816B00BCA11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81754B0D2CA2816C00BCA11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81754B172CA2816C00BCA11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81754B132CA2816C00BCA11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81754B002CA2816B00BCA11D /* aki */;
+			targetProxy = 81754B122CA2816C00BCA11D /* PBXContainerItemProxy */;
+		};
+		81754B1D2CA2816C00BCA11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81754B002CA2816B00BCA11D /* aki */;
+			targetProxy = 81754B1C2CA2816C00BCA11D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81754B232CA2816C00BCA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81754B242CA2816C00BCA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81754B262CA2816C00BCA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aki/Preview Content\"";
+				DEVELOPMENT_TEAM = 76RN82DG87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aki/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "タイムマイスター";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "常に許可して";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリケーションは位置情報を使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koki-takahashi.aki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81754B272CA2816C00BCA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aki/Preview Content\"";
+				DEVELOPMENT_TEAM = 76RN82DG87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aki/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "タイムマイスター";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "常に許可して";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリケーションは位置情報を使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koki-takahashi.aki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81754B292CA2816C00BCA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76RN82DG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koki-takahashi.akiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aki";
+			};
+			name = Debug;
+		};
+		81754B2A2CA2816C00BCA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76RN82DG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koki-takahashi.akiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aki";
+			};
+			name = Release;
+		};
+		81754B2C2CA2816C00BCA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76RN82DG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koki-takahashi.akiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aki;
+			};
+			name = Debug;
+		};
+		81754B2D2CA2816C00BCA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76RN82DG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koki-takahashi.akiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81754AFC2CA2816B00BCA11D /* Build configuration list for PBXProject "aki3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81754B232CA2816C00BCA11D /* Debug */,
+				81754B242CA2816C00BCA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81754B252CA2816C00BCA11D /* Build configuration list for PBXNativeTarget "aki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81754B262CA2816C00BCA11D /* Debug */,
+				81754B272CA2816C00BCA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81754B282CA2816C00BCA11D /* Build configuration list for PBXNativeTarget "akiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81754B292CA2816C00BCA11D /* Debug */,
+				81754B2A2CA2816C00BCA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81754B2B2CA2816C00BCA11D /* Build configuration list for PBXNativeTarget "akiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81754B2C2CA2816C00BCA11D /* Debug */,
+				81754B2D2CA2816C00BCA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81754B3F2CA2939200BCA11D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81754B402CA2939200BCA11D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81754B3F2CA2939200BCA11D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 81754AF92CA2816B00BCA11D /* Project object */;
+}
